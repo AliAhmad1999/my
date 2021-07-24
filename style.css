@@ -3,3 +3,9 @@ h1{
     width: 200px;
     height: 100px;
 }
+body{
+    background-color: blue;
+}
+h2{
+    background-color: brown;
+}
