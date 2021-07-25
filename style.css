@@ -4,8 +4,21 @@ h1{
     height: 100px;
 }
 body{
-    background-color: blue;
+    background-color: red;
 }
 h2{
     background-color: brown;
 }
+@media only screen and (max-width:600px) {
+    body{
+        background-color: blue;
+    }
+    h1{
+        background-color: palevioletred;
+        width: 200px;
+        height: 100px;
+    }
+    h2{
+        background-color: rgb(161, 18, 228);
+        font-style: italic;
+    }
